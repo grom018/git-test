@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование билетов</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <h2>Бронирование билетов</h2>
+
+    <div class="menu">
+
+        <ul class="navigation">
+
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="entertainment.html">Развлечения</a></li>
+            <li><a href="foto.html">Фотогалерея</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+
+        </ul>
+
+    </div>
+
+    <form>
+
+        <label for="name">Ваше ФИО</label>
+        <input type="text" name="fio" id="name" required>
+
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel" required>
+
+        <br><br>
+
+        <h3 class="booking">Тип сезона</h3>
+
+        <input type="radio" id="low-season" name="tupe-season" value="low-season">
+        <label for="low-season">Низкий</label> <br>
+        <input type="radio" id="high-season" name="tupe-season" value="high-season">
+        <label for="high-season">Высокий</label>
+
+
+        <h3 class="booking">Выбор парка</h3>
+
+        <input type="checkbox" id="option-1" name="option-1">
+        <label for="option-1">PortAventura-Park</label><br>
+        <input type="checkbox" id="option-2" name="option-2">
+        <label for="option-2">Ferrari-Land</label><br>
+        <input type="checkbox" id="option-3" name="option-3">
+        <label for="option-3">Caribe-Aquatic-Park</label>
+
+        <h3 class="booking">Выбор билетов</h3>
+
+        <label for="type-ticket">Тип билета</label>
+        <select name="type-ticket" id="type-ticket">
+                <option value="1">1 день</option>                       
+                <option value="2">2 дня</option>
+                <option value="3">3 дня</option>
+                <option value="4">4 дня</option>
+                <option value="5">7 дней</option>    
+             </select>
+
+        <label for="adults">Количество взрослых</label>
+        <select name="adults" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>                       
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">5</option>     
+             </select>
+
+        <label for="kids">Количество детей</label>
+        <select name="kids" id="kids">
+                <option value="1">0</option>
+                <option value="2">1</option>                       
+                <option value="3">2</option>
+                <option value="4">3</option>
+                <option value="5">4</option>    
+             </select>
+
+        <br><br>
+
+        <label for="comment">Комментарий для бронирования</label><br>
+        <textarea name="name" id="comment" cols="30" rows="4"></textarea>
+        <br><br>
+
+
+        <input type="submit" value="Купить билет">
+
+
+    </form>
+
+
+</body>
+
+</html>

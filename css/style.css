@@ -1,0 +1,122 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #E0FFFF;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0; 
+    font-size: 0;
+    display: inline-block;
+}
+
+.menu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-weight: bold;  
+}
+
+ul.sub_menu {
+    list-style-type: none;
+    position: absolute;
+    left: 0; 
+    display: none;
+}
+
+ul.sub_menu li {
+    display: list-item;   
+}
+
+.menu>ul>li:hover .sub_menu {
+    display: block;
+}
+
+a {
+    color: #C71585;
+}
+
+a:hover {
+    color: #00BFFF;
+}
+
+dt {
+    font-family: 'Merriweather', serif;
+    color: #A52A2A;
+}
+
+img,
+iframe {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #696969;
+    margin-right: 10px;
+    width: 700px;
+    height: 400px;
+    border: 0;
+
+}
+
+.colortext {
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.entertainment {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.booking {
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+table {
+    background-color: #F0F8FF;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 3px;
+    background-color: #00FF00;
+}
+
+.image {
+    text-align: center;
+}
+
